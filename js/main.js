@@ -8,7 +8,7 @@ const products = [
         image: "images/fruit.jpg",
 
         description:
-            "Inspiration from fruits",
+            "Inspiration from fruits 🥝 🍇 🍉",
 
         formLink:
             "https://docs.google.com/forms/d/e/1FAIpQLSfL0EA8tIduWa1n70XeBVTyw2VnxXRIHQwAcsAKVKa8C9_qNA/viewform?usp=pp_url&entry.1000027=Fruit+friends&entry.231817578=Kiwi"
@@ -23,7 +23,7 @@ const products = [
         image: "images/bff.jpg",
 
         description:
-            "For our BFF",
+            "For our BFF 💖 👯‍♀️",
 
         formLink:
             "https://docs.google.com/forms/d/e/1FAIpQLSfL0EA8tIduWa1n70XeBVTyw2VnxXRIHQwAcsAKVKa8C9_qNA/viewform?usp=pp_url&entry.1000027=Best+friends&entry.231817578=BFF"
@@ -38,7 +38,7 @@ const products = [
         image: "images/chevron.jpg",
 
         description:
-            "A classical chevron pattern",
+            "A classical chevron pattern 《 》 ",
 
         formLink:
             "https://docs.google.com/forms/d/e/1FAIpQLSfL0EA8tIduWa1n70XeBVTyw2VnxXRIHQwAcsAKVKa8C9_qNA/viewform?usp=pp_url&entry.1000027=Classic&entry.231817578=Classic"
@@ -101,4 +101,3 @@ products.forEach(product => {
     productList.appendChild(card);
 
 });
-
