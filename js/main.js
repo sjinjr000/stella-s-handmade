@@ -1,14 +1,14 @@
 const products = [
 
     {
-        name: "Crochet Bee",
+        name: "Fruit friends",
 
-        price: "$18",
+        price: "$8",
 
-        image: "images/bee.jpg",
+        image: "images/fruit.jpg",
 
         description:
-            "A cute handmade bee made with soft yarn.",
+            "Inspiration from fruits",
 
         formLink:
             "https://forms.gle/cZs3nH5p5qJp5mHc7"
@@ -16,14 +16,14 @@ const products = [
 
 
     {
-        name: "Crochet Turtle",
+        name: "Best friends",
 
-        price: "$25",
+        price: "$8",
 
-        image: "images/turtle.jpg",
+        image: "images/bff.jpg",
 
         description:
-            "A friendly little turtle gift.",
+            "For our BFF",
 
         formLink:
             "https://forms.gle/cZs3nH5p5qJp5mHc7"
@@ -31,29 +31,14 @@ const products = [
 
 
     {
-        name: "Sunflower",
+        name: "Classic",
 
-        price: "$22",
+        price: "$8",
 
-        image: "images/sunflower.jpg",
-
-        description:
-            "A handmade sunflower decoration.",
-
-        formLink:
-            "https://forms.gle/cZs3nH5p5qJp5mHc7"
-    },
-
-
-    {
-        name: "Crochet Octopus",
-
-        price: "$20",
-
-        image: "images/octopus.jpg",
+        image: "images/chevron.jpg",
 
         description:
-            "A colorful handmade octopus.",
+            "A classical chevron pattern",
 
         formLink:
             "https://forms.gle/cZs3nH5p5qJp5mHc7"
@@ -94,18 +79,21 @@ products.forEach(product => {
         </p>
 
 
-        <div class="price">
-            ${product.price}
-        </div>
+        <div class="card-footer">
 
+    <div class="price">
+        ${product.price}
+    </div>
 
-        <a class="request-btn"
-           href="${product.formLink}"
-           target="_blank">
+    <a class="request-btn"
+       href="${product.formLink}"
+       target="_blank">
 
-            Request This Item
+        Request
 
-        </a>
+    </a>
+
+</div>
 
     `;
 
