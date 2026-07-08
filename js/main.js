@@ -3,7 +3,7 @@ const products = [
     {
         name: "Fruit friends",
 
-        price: "$8",
+        price: "$",
 
         image: "images/fruit.jpg",
 
@@ -18,7 +18,7 @@ const products = [
     {
         name: "Best friends",
 
-        price: "$8",
+        price: "$",
 
         image: "images/bff.jpg",
 
@@ -33,7 +33,7 @@ const products = [
     {
         name: "Classic",
 
-        price: "$8",
+        price: "$",
 
         image: "images/chevron.jpg",
 
