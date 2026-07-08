@@ -27,8 +27,8 @@ header {
 
     align-items: center;
 
-    padding: 20px 8%;
-
+    padding: 24px 8%;
+    height: 90px; 
     background: white;
 
 }
@@ -54,7 +54,15 @@ nav a {
 
 }
 
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
 
+    .menu-button {
+        display: block;
+    }
+}
 
 .hero {
 
@@ -222,7 +230,7 @@ footer {
 
     background: white;
 
-    padding: 30px;
+    padding: 12px;
 
     text-align: center;
 
